@@ -79,7 +79,7 @@ footer .soc svg{width:22px;height:22px;display:block}
 .links{display:flex;gap:12px;justify-content:center;margin-top:12px}
 .links a{color:var(--mute);transition:.2s}.links a:hover{color:var(--slate2)}
 .links svg{width:20px;height:20px;display:block}
-dialog{background:#15181a;color:var(--ink);border:1px solid var(--line);border-radius:14px;max-width:860px;width:calc(100% - 32px);padding:44px;font-family:var(--bd)}
+dialog{margin:auto;background:#15181a;color:var(--ink);border:1px solid var(--line);border-radius:14px;max-width:860px;width:calc(100% - 32px);padding:44px;font-family:var(--bd)}
 dialog::backdrop{background:rgba(0,0,0,.7)}
 .bwrap{display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:start}
 .bwrap .ph{width:200px;height:200px}
