@@ -1,0 +1,51 @@
+title: Kirigami for urban ventilation & shade
+tags: [geom, inst, fsi, light, air, temp]
+card:
+  image: kirigami-for-urban-ventilation.jpg
+  image_credit: "Photo: Giulia Fassina"
+  summary: Kirigami, or “cutting paper,” offers a retrofitting solution that can offer adaptive ventilation, while providing shade, and be actuated at the meter scale.
+  refs: JWEIA (2024) · Kirigami d’Aria
+
+intro: >-
+  Cities are often hot and poorly ventilated. We have demonstrated that *kirigami*, or
+  “cutting paper” offers a retrofitting solution that can offer adaptive ventilation,
+  while providing shade, and be actuated at the meter scale.
+
+hero:
+  src: media/kirigami-for-urban-ventilation/hero.mp4
+  caption: "Video: Laura Barisonzi"
+
+sections:
+  - heading: Kirigami for urban ventilation & shade
+    text: >-
+      Ensuring adequate ventilation of exterior and interior urban spaces is essential for
+      the safety and comfort of inhabitants. In this work, we demonstrate that retrofitting
+      urban spaces, e.g. urban canyons and parklets, with *kirigami*, or “cutting paper”
+      promotes ventilation by steering wind into spaces with stagnant air, while providing
+      shade. A significant geometric simplification—i.e. louvers—offers useful design guidelines.
+    citations:
+      - text: "L. Stein-Montalvo, L. Ding, M. Hultmark, S. Adriaenssens, and E. Bou-Zeid. Kirigami-inspired wind-steering for natural ventilation. *Journal of Wind Engineering and Industrial Aerodynamics* 246, 105667 (2024)"
+        doi: 10.1016/j.jweia.2024.105667
+        links:
+          Press: https://engineering.princeton.edu/news/2024/03/20/good-way-cool-sweltering-urban-canyon-put-lid-it
+          Bloomberg feature: https://www.bloomberg.com/news/features/2024-06-14/cooling-parks-will-help-cities-during-record-breaking-heat-waves
+      - text: "V. Chow, X. Huang, E. Bou-Zeid, and L. Stein-Montalvo. Multistable kirigami for urban canyon ventilation and shade."
+    media:
+      - {src: media/kirigami-for-urban-ventilation/shade-vent.mp4, caption: "Chow et al. (in prep.)"}
+      - {src: media/kirigami-for-urban-ventilation/jweia.jpg, caption: "JWEIA (2024)"}
+
+  - heading: "Kirigami d’Aria: exhibition"
+    text: >-
+      (Learn more about this project [here](https://sites.northwestern.edu/kirigamidaria/).)
+      To demonstrate the feasibility of kirigami at architectural scales, we developed a
+      pavilion for exhibition at the 2025 European Cultural Centre (ECC) Venice
+      Biennale—*[Time, Space, Existence](https://timespaceexistence.com)*. The canopy
+      continuously opens and closes, driven by a motor, to adjust airflow and shading
+      throughout the day. The exhibition is free to the public, and was open from May
+      10-November 23, 2025 at [Palazzo Mora](https://www.google.com/maps/place/European+Cultural+Centre+%28ECC%29+-+Palazzo+Mora/data=!4m2!3m1!1s0x0:0x3cd64a7a4b259d7a),
+      Venice, Italy, welcoming nearly 370,000 visitors.
+    citations:
+      - text: "L. Stein-Montalvo, V. Chow, B. Washabaugh, S. Adriaenssens, and E. Bou-Zeid. Meter-scale kirigami for urban ventilation."
+    media:
+      - {src: media/kirigami-for-urban-ventilation/kda-exhibition.mp4, caption: "Video: Giulia Fassina"}
+      - {src: media/kirigami-for-urban-ventilation/exhibition-2.jpg, caption: "Photo: Laura Barisonzi"}

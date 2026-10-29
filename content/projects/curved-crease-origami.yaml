@@ -1,0 +1,22 @@
+title: Curved-crease origami
+tags: [geom, inst]
+card:
+  image: curved-crease-origami.jpg
+  summary: In curved-crease origami, folding leads to panel bending—potentially producing stiffer, tunable structures with fewer folds.
+  refs: Extreme Mechanics Letters (2022)
+
+intro: >-
+  In contrast to traditional origami with straight creases, in curved-crease origami,
+  folding leads to panel bending. Thus, curved-crease origami could potentially produce
+  stiffer, tunable, structures with fewer folds. Yet, the mechanics and deformations of
+  curved-crease origami are not well-understood. We study these mechanics through the
+  lens of the bistable waterbomb base.
+
+sections:
+  - citations:
+      - text: "J. Flores, L. Stein-Montalvo, and S. Adriaenssens. Effect of crease curvature on the bistability of the origami waterbomb base. *Extreme Mechanics Letters* 57, 101909 (2022)"
+        doi: 10.1016/j.eml.2022.101909
+        cover: true
+    media:
+      - {src: media/curved-crease-origami/waterbomb.mp4}
+      - {src: media/curved-crease-origami/cover-eml.jpg, caption: "Extreme Mechanics Letters (2022), front cover", width: 60%}

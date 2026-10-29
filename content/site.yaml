@@ -1,0 +1,77 @@
+# ─────────────────────────────────────────────────────────────
+# Site-wide settings: menu, footer, home page, contact page.
+# Text formatting you can use anywhere:
+#   *italic*   **bold**   [link text](https://example.com)
+#   Links to pages on this site start with /  e.g. [Contact](/contact/)
+# ─────────────────────────────────────────────────────────────
+
+lab_name: Adaptive Structures Lab
+tagline: Shape-shifting mechanics for *life-like cities*
+
+menu:
+  - {label: Home, url: /}
+  - {label: Team, url: /team/}
+  - {label: Research, url: /research/}
+  - {label: Publications, url: /publications/}
+  - {label: Contact, url: /contact/}
+
+footer:
+  address: |
+    Adaptive Structures Lab
+    Department of Civil and Environmental Engineering
+
+    Northwestern University
+    2145 Sheridan Rd, Tech AG51
+    Evanston, IL 60208, USA
+  email: lsmontal@northwestern.edu
+  instagram: http://instagram.com/adaptivestructures_nu
+  bluesky: https://bsky.app/profile/lsmontal.bsky.social
+  linkedin: https://www.linkedin.com/in/lsmontal/
+
+home:
+  video_webm: media/home-canopy.webm
+  video_mp4: media/home-canopy.mp4
+  about_title: About us
+  about: >-
+    In the Adaptive Structures Lab, we aim to understand and apply the mechanics of
+    shape-shifting—that is, compelling structures to change shape on demand, or in
+    response to a stimulus—for designs that can make the built environment more
+    life-like and resilient. Our research is experimentally-driven, and informed by
+    simulations and mathematical modeling.
+
+contact:
+  heading: "For general inquiries, please reach out to:"
+  address: |
+    Lucia Stein-Montalvo
+    Assistant Professor
+    Department of Civil and Environmental Engineering
+    Northwestern University
+    2145 Sheridan Road
+    Evanston, IL 60208
+  office: Tech A122
+  email: lsmontal@northwestern.edu
+  lab: Tech AG51
+  photo: img/misc/campus.jpg
+  join_title: Interested in joining us?
+  join_note: "*Those at any career stage seeking fellowship funding are highly encouraged to reach out, even if no positions are currently posted in the group."
+  join:
+    - title: Prospective graduate students
+      text: >-
+        …should apply to the [Department of Civil and Environmental Engineering](https://www.mccormick.northwestern.edu/civil-environmental/academics/phd/)
+        at Northwestern University. You are also welcome to reach out to Dr. Stein-Montalvo
+        to schedule a meeting to discuss research directions and fit.
+    - title: Prospective postdoctoral researchers
+      text: >-
+        …are encouraged to contact Dr. Stein-Montalvo directly. Please email a cover letter
+        summarizing your past and current research, along with a brief description of your
+        research interests and goals within the group, and your CV to
+        [lsmontal@northwestern.edu](mailto:lsmontal@northwestern.edu).
+    - title: Undergraduates
+      text: >-
+        …interested in pursuing research in the group are encouraged to reach out to
+        Dr. Stein-Montalvo. Research can be performed as Independent Study (e.g. CIV_ENG 399
+        for CEE students), and/or with a [SURG](https://undergradresearch.northwestern.edu/funding/surg/)
+        or [AYURG](https://undergradresearch.northwestern.edu/funding/ayurg/). Work-study may also
+        be an option. Please see the [Northwestern Office of Undergraduate Research page](https://undergradresearch.northwestern.edu)
+        for FAQs and funding opportunities.
+  map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.902809045069!2d-87.6783557235338!3d42.0576695541516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fda9f1b2c4b5b%3A0xe65aa0bf35d54820!2s2145%20Sheridan%20Rd%2C%20Evanston%2C%20IL%2060208%2C%20USA!5e1!3m2!1sen!2sus!4v1739799330551!5m2!1sen!2sus

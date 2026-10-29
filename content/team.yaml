@@ -1,0 +1,115 @@
+# ─────────────────────────────────────────────────────────────
+# TEAM. One entry per person, shown in this order.
+#   pi: true      -> shown large at the top
+#   alum: true    -> shown under "Alumni"
+#   photo:        -> a square photo in assets/img/team/ (leave blank for the lab-logo placeholder)
+#   bio:          -> leave blank if none yet (photo won't be clickable)
+#   links: any of email, website, github, linkedin, scholar, researchgate, orcid
+# To remove someone, delete their block. To add someone, copy a block.
+# ─────────────────────────────────────────────────────────────
+
+intro_label: Team
+intro_title: We are an interdisciplinary and *growing team*
+intro_text: Please check the [Contact](/contact/) page for more information on how to join us. Click the images below to learn more about our group members.
+
+people:
+  - name: Lucia Stein-Montalvo
+    title: Principal Investigator
+    pi: true
+    photo: lucia.jpg
+    bio: >-
+      Lucia Stein-Montalvo is the Principal Investigator of the Adaptive Structures Lab and
+      an Assistant Professor in the Department of Civil and Environmental Engineering at
+      Northwestern University. Her research focuses on the mechanics of instabilities and
+      large deformations (i.e. “shape-shifting”), and how they can be used for adaptive
+      architecture designs. Dr. Stein-Montalvo holds a PhD in Mechanical Engineering from
+      Boston University, and a B.S. in Mathematics with a minor in Hispanic Studies from
+      Davidson College. Prior to joining Northwestern, she was a Presidential Postdoctoral
+      Research Fellow at Princeton University.
+    links:
+      email: lsmontal@northwestern.edu
+      linkedin: https://www.linkedin.com/in/lsmontal/
+      scholar: https://scholar.google.com/citations?user=egeO5c0AAAAJ&hl=en&oi=ao
+      researchgate: https://www.researchgate.net/profile/Lucia-Stein-Montalvo-2
+
+  - name: Paul Ducarme
+    title: Postdoctoral Fellow
+    photo: paul.jpg
+    bio: |-
+      Paul Ducarme is a NU Sustainability and Energy postdoctoral fellow. His research focuses on using mechanical instabilities to give buildings life-like properties, allowing architectural elements to suddenly change shape in order to adapt to and regulate humidity, temperature, ventilation, light, or air pollution.
+
+      He obtained his PhD from the University of Amsterdam in May 2026, conducting his doctoral research on nonlinear materials and structures at the AMOLF and ARCNL institutes. Most notably, he experimentally demonstrated a new type of instability, called countersnapping, that allows structures to deform in previously impossible ways, becoming stronger as they snap.
+
+      Outside the lab, Paul enjoys playing chess, photography, bike rides, and soccer.
+    links:
+      email: paul.ducarme@northwestern.edu
+      website: https://paulducarme.com
+      github: https://github.com/ducarme
+      linkedin: https://www.linkedin.com/in/paul-ducarme/
+      scholar: https://scholar.google.com/citations?user=rrctz-oAAAAJ&hl=en
+      researchgate: https://www.researchgate.net/profile/Paul-Ducarme
+
+  - name: Vicky Chow
+    title: Graduate (PhD) Student
+    photo: vicky.jpg
+    bio: >-
+      Vicky Chow is a PhD student at Northwestern University studying Civil Engineering.
+      An architect turned civil engineer researcher, Vicky has professional experience in
+      the design and delivery of buildings. Vicky is currently researching multimodal
+      kirigami buckling and modularization.
+    links:
+      email: Vicky.C@u.northwestern.edu
+      orcid: https://orcid.org/0009-0009-0935-4239
+
+  - name: Leilaini Bender
+    title: Graduate (PhD) Student
+    photo:
+    bio:
+    links: {}
+
+  - name: Karina Paxton Filoteo
+    title: Undergraduate Student
+    photo: karina.jpg
+    bio: >-
+      Karina Paxton Filoteo is an undergraduate student studying Civil Engineering at
+      Northwestern University. Passionate about resilience and adaptability in the built
+      environment, Karina is researching the impact of porous metamaterials on evaporation
+      and water flow for future application in permeable surfaces and facades. Karina won
+      the 2026 McCormick Undergraduate Summer Research Grant enabling her to devote eight
+      weeks of the summer to developing her research.
+    links:
+      email: karinapaxtonfiloteo2029@u.northwestern.edu
+      linkedin: https://www.linkedin.com/in/karinapaxtonfiloteo/
+
+  - name: Anderson Campbell
+    title: Undergraduate Student
+    photo: anderson.jpg
+    bio: >-
+      Anderson Campbell is a junior studying Mechanical Engineering at Northwestern
+      University and pursuing the Segal Design Certificate. In the Adaptive Structures Lab,
+      he researches hygromorphic structures that use moisture-driven deformation and
+      snap-through instability to change shape in response to environmental conditions.
+      His work focuses on the experimental design, fabrication, and testing of
+      water-responsive structures, with the goal of developing passive, energy-efficient
+      solutions for adaptive architecture. Anderson received funding through
+      Northwestern’s Undergraduate Research Assistant Program (URAP) to continue his
+      research as a paid undergraduate research assistant during the academic year.
+      Outside the lab, he enjoys playing basketball and exploring new places.
+    links:
+      linkedin: https://www.linkedin.com/in/anderson-campbell-
+
+  - name: Chealen Berry
+    title: Undergraduate Student (Alum)
+    alum: true
+    photo: chealen.jpg
+    bio: >-
+      Chealen Berry is a senior at Northwestern University studying Civil Engineering with
+      a minor in Spanish. She has had repeated internships with Thornton Tomasetti in
+      Chicago, IL, and has co-authored a journal paper that is currently under review by
+      the ASCE Journal of Structural Engineering in which she investigates the structural
+      and facade damage caused by the 2020 Port of Beirut Blast. Following her studies at
+      Northwestern, she plans to pursue a master’s degree and hopes to use her master’s
+      thesis to investigate timber’s possible use in adaptive facades.
+    links:
+      email: chealenberry2024@u.northwestern.edu
+      linkedin: http://linkedin.com/in/chealen-berry-807914254

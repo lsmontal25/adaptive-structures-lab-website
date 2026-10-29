@@ -1,0 +1,47 @@
+title: Controllable buckling & snapping
+tags: [geom, inst]
+card:
+  image: controllable-buckling-snapping.jpg
+  summary: Uncovering geometry- and mechanics-based guidelines for inducing instabilities in efficient and controllable ways.
+  refs: PRSA (2021) · EPJE (2022)
+
+intro: >-
+  Shell structures are instability-prone. If we can understand and control these
+  instabilities, we can use them to our advantage in engineering designs. Our work has
+  focused on uncovering geometry- and mechanics-based guidelines for inducing
+  instabilities in efficient and controllable ways.
+
+sections:
+  - heading: Efficient snap-through in spherical caps
+    text: >-
+      To drive snap-through in a bistable device or actuator, a non-mechanical stimulus
+      (e.g. thermal, electrical, chemical…) is typically applied to the entire shell. This
+      can mean high energy input and large amounts of active (i.e. stimulus-responsive)
+      materials. Here, we show that you can make spherical caps snap with much less active
+      material, without requiring a higher stimulus—as long as the active region lies on
+      the shell boundary. This result is stimulus-agnostic, and can be mapped to many
+      non-mechanical loads. We demonstrate with experiments using both swelling and
+      magnetic stimuli.
+    citations:
+      - text: "L. Stein-Montalvo, J.H. Lee, Y. Yang, M. Landesberg, H.S. Park, and D.P. Holmes. Efficient snap-through of spherical caps by applying a localized curvature stimulus. *European Physical Journal E*, 45, 3 (2022)"
+        doi: 10.1140/epje/s10189-021-00156-0
+        links:
+          Write-up: https://www.epj.org/epje-news/2320-epje-highlight-the-relationship-between-active-areas-and-boundaries-with-energy-input-in-snapping-shells
+    media:
+      - {src: media/controllable-buckling-snapping/epje.jpg, caption: "EPJE (2022)"}
+
+  - heading: Delayed buckling of viscoelastic spherical shells
+    text: >-
+      Silicone elastomers are commonly used in engineering designs, e.g. as actuators in
+      soft robotics. However, these materials are viscoelastic, so their response to
+      loading depends on the load rate. At pressures below the elastic critical buckling
+      load, shells made of these viscoelastic materials can still buckle, following a delay
+      period. Here, we show that viscoelastic creep deformation acts like a geometric
+      defect, slowly lowering the critical load to cause delayed buckling in seemingly
+      stable elastomer shells under a constant load. This work can offer a pathway to
+      introduce tunable, time-controlled actuation to existing mechanical actuators.
+    citations:
+      - text: "L. Stein-Montalvo, D.P. Holmes, and G. Coupier. Delayed buckling of spherical shells due to viscoelastic knockdown of the critical load. *Proc. R. Soc. A*, 477 (2021)"
+        doi: 10.1098/rspa.2021.0253
+    media:
+      - {src: media/controllable-buckling-snapping/prsa.mp4, caption: "PRSA (2021)"}

@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────
+# RESEARCH PAGE: intro, the two halves, their bubbles, and which projects
+# appear in each half (top to bottom). Each project has its own file in
+# content/projects/<slug>.yaml. A bubble only matters if a project uses its key in "tags".
+# ─────────────────────────────────────────────────────────────
+
+label: Research
+title: Shape-shifting mechanics for *life-like cities*
+intro: >-
+  Our research aims to understand and control the mechanics of shape-shifting
+  structures—i.e. those that undergo large deformations and instabilities—to create
+  more adaptive, resilient, and life-like designs for the built environment. Thus, our
+  research spans from fundamental mechanics of shape-shifting structures, including
+  mechanical metamaterials, kirigami, and origami, to applied designs that regulate air
+  flow, sunlight, and other environmental factors. Achieving these applications requires
+  integrating principles of e.g. fluid-structure interactions, material behavior, and
+  thermodynamics.
+
+# Tag keys -> bubble labels (used by projects' "tags")
+tags:
+  geom: Mechanics & geometry
+  inst: Instabilities
+  fsi: Fluid-structure interaction
+  light: Light
+  air: Air flow
+  temp: Temperature
+  water: Water
+  sound: Sound
+
+groups:
+  - title: Shape-shifting mechanics
+    description: Fundamental mechanics of shape-shifting structures, including mechanical metamaterials, kirigami, and origami.
+    bubbles: [geom, inst, fsi]
+    projects:
+      - environmentally-responsive-morphing
+      - curved-crease-origami
+      - controllable-buckling-snapping
+      - mechanics-of-confinement
+
+  - title: Life-like cities
+    description: Shape-shifting structures that regulate air flow, sunlight, and other environmental factors.
+    bubbles: [light, air, temp, water, sound]
+    projects:
+      - kirigami-for-urban-ventilation
+      - interactive-shading
+      - reconfigurable-soundscapes

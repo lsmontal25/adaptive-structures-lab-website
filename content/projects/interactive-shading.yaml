@@ -1,0 +1,22 @@
+title: Adaptive shading & human interaction
+tags: [geom, inst, light]
+card:
+  image: interactive-shading.jpg
+  summary: The Swarm Garden lies at the intersection between mechanics, swarm robotics, architecture, and art.
+  refs: Science Robotics (2026)
+
+intro: The Swarm Garden lies at the intersection between mechanics, swarm robotics, architecture, and art.
+
+hero:
+  src: media/interactive-shading/hero.mp4
+
+sections:
+  - text: |-
+      Units of confined, thin sheets, which buckle into controllable patterns according to geometry (see [Geometric confinement](/mechanics-of-confinement/) and [doi: 10.1103/PhysRevE.108.035002](https://doi.org/10.1103/PhysRevE.108.035002)), act as “flowering” agents. These modules respond collectively to one another to human interaction. We demonstrate that the multifunctional, modular system can be used as a façade to customize sunlight in interior spaces. We also held an interactive art exhibit (April 2024) in Princeton, NJ to demonstrate the mechanism.
+
+      See more about the making of the Swarm Garden on Princeton’s [CreativeX website](https://creativexproject.org/projects/swarm-garden).
+    citations:
+      - text: "M. Alhafnawi, J. Bendarkawi, Y. Tafesse, L. Stein-Montalvo, A. Jones, V. Chow, S. Adriaenssens, and R. Nagpal. Architectural swarms for responsive facades and creative expressions. *Science Robotics* 11, eady7233 (2026)"
+        doi: 10.1126/scirobotics.ady7233
+    media:
+      - {src: media/interactive-shading/collective-opinion.mp4}

@@ -1,0 +1,12 @@
+title: Environmentally responsive morphing
+coming_soon: true
+tags: [geom, inst, fsi, temp, water]
+card:
+  image: environmentally-responsive-morphing.jpg
+  summary: Environmental stimuli (heat, water) combine with materials, geometry, and constraints to drive controlled snap-through.
+
+# Page content kept for later (not published while coming_soon: true)
+intro: Environmental stimuli (heat, water) combine with materials, geometry, and constraints to drive controlled snap-through.
+sections:
+  - media:
+      - {src: media/environmentally-responsive-morphing/preview.mp4, caption: "P. Ducarme (in progress)", width: 70%}   # video kept OUT of the public site folder; original in research/environmental_morphing/

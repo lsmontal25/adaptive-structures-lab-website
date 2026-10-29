@@ -1,0 +1,30 @@
+# Copy this file to make a new project. The file name (without .yaml) becomes the web address:
+#   content/projects/my-new-project.yaml  ->  adaptivestructureslab.com/my-new-project/
+# Then add "my-new-project" to a group's projects list in content/research.yaml.
+
+title: My new project
+coming_soon: false          # true = card only, not clickable, no page
+tags: [geom, inst]          # keys from content/research.yaml
+card:
+  image: my-new-project.jpg # square image in assets/img/cards/
+  summary: One sentence shown on the Research page.
+  refs: Journal (Year)      # small line under the summary (optional)
+
+intro: >-
+  Paragraph at the top of the project page.
+
+hero:                       # optional big image/video at the top
+  src: media/my-new-project/hero.mp4
+  caption: "Video: Name"
+
+sections:
+  - heading: Section title
+    text: >-
+      Section paragraph. Use *italic*, **bold**, [links](https://example.com).
+    citations:
+      - text: "L. Stein-Montalvo, A. Author. Paper title. *Journal* 1, 2 (2026)"
+        doi: 10.0000/example      # leave out for "In preparation"
+        cover: false
+        links: {Press: "https://example.com"}
+    media:
+      - {src: media/my-new-project/figure.jpg, caption: "Journal (2026)", width: 60%}

@@ -1,0 +1,40 @@
+title: Geometric confinement
+tags: [geom, inst]
+card:
+  image: mechanics-of-confinement.jpg
+  summary: We have studied how geometry dictates buckling patterns in plates and shells as they are confined.
+  refs: Soft Matter (2019) · Physical Review E (2023)
+
+intro: >-
+  Slender structures like plates and shells are abundant in nature, manufacturing, and
+  engineering, and often are confined in some way by their environment. We have studied
+  how geometry dictates buckling patterns in plates and shells as they are confined.
+
+sections:
+  - heading: Confined plates
+    text: >-
+      Thin sheets respond to confinement by wrinkling, as in the edges of leaves or cooked
+      bacon, or by forming sharp vertices and ridges, as in crumpled wrapping paper (stress
+      focusing). In intermediate confinement regimes, we can observe transitions between
+      these motifs. Buckling patterns and associated forces are highly sensitive to
+      geometry, which we explore in this work.
+    citations:
+      - text: "L. Stein-Montalvo, A. Guerra, K. Almeida, O. Kodio, and D.P. Holmes. Wrinkling and developable cones in centrally confined sheets. *Physical Review E* 108, 035002 (2023)"
+        doi: 10.1103/PhysRevE.108.035002
+    media:
+      - {src: media/mechanics-of-confinement/pre2.mp4, caption: "Physical Review E (2023)", width: 60%}
+      - {src: media/mechanics-of-confinement/pre1.jpg, caption: "Physical Review E (2023)"}
+
+  - heading: Confined shells
+    text: >-
+      We study the buckling patterns that emerge in shell structures that vary widely in
+      their geometries (i.e. average Gaussian and mean, or Germain, curvatures). We find
+      that a single geometric parameter governs the overall buckling behavior of a range
+      of shells.
+    citations:
+      - text: "L. Stein-Montalvo, P. Costa, M. Pezzulla, and D.P. Holmes. Buckling of geometrically confined shells. *Soft Matter*, 15, 1215–1222 (2019)"
+        doi: 10.1039/c8sm02035c
+        cover: true
+    media:
+      - {src: media/mechanics-of-confinement/sm1.mp4, caption: "Soft Matter (2019)"}
+      - {src: media/mechanics-of-confinement/sm2.jpg, caption: "Soft Matter (2019)", width: 60%}

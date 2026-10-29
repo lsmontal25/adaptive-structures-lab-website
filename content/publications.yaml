@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────
+# PUBLICATIONS. Newest first; papers are grouped by year automatically.
+# Add a new paper by copying a block to the top.
+#   cover: true  -> adds a "Front cover" tag
+#   links: extra buttons, e.g. Press, Write-up
+# Your name is bolded automatically.
+# ─────────────────────────────────────────────────────────────
+
+intro: Also see [ResearchGate](https://www.researchgate.net/profile/Lucia-Stein-Montalvo-2) or [Google Scholar](https://scholar.google.com/citations?user=egeO5c0AAAAJ&hl=en&oi=ao) for more up-to-date publication lists.
+
+featured_covers:
+  - {image: img/misc/cover-eml.jpg, url: "https://www.sciencedirect.com/science/article/abs/pii/S2352431622001857", alt: "Extreme Mechanics Letters cover, 2022"}
+  - {image: img/misc/cover-sm.jpg, url: "https://pubs.rsc.org/en/content/articlelanding/2019/sm/c8sm02035c", alt: "Soft Matter cover, 2019"}
+
+papers:
+  - year: 2026
+    authors: M. Alhafnawi, J. Bendarkawi, Y. Tafesse, L. Stein-Montalvo, A. Jones, V. Chow, S. Adriaenssens, and R. Nagpal
+    title: Architectural Swarms for responsive facades and creative expressions
+    journal: "*Science Robotics* 11, eady7233 (2026)"
+    doi: 10.1126/scirobotics.ady7233
+
+  - year: 2024
+    authors: L. Stein-Montalvo, L. Ding, M. Hultmark, S. Adriaenssens, and E. Bou-Zeid
+    title: Kirigami-inspired wind-steering for natural ventilation
+    journal: "*Journal of Wind Engineering and Industrial Aerodynamics* 246, 105667 (2024)"
+    doi: 10.1016/j.jweia.2024.105667
+    links:
+      Press: https://engineering.princeton.edu/news/2024/03/20/good-way-cool-sweltering-urban-canyon-put-lid-it
+      Bloomberg feature: https://www.bloomberg.com/news/features/2024-06-14/cooling-parks-will-help-cities-during-record-breaking-heat-waves
+
+  - year: 2023
+    authors: L. Stein-Montalvo, A. Guerra, K. Almeida, O. Kodio, and D.P. Holmes
+    title: Wrinkling and developable cones in centrally confined sheets
+    journal: "*Physical Review E* 108, 035002 (2023)"
+    doi: 10.1103/PhysRevE.108.035002
+
+  - year: 2022
+    authors: J. Flores, L. Stein-Montalvo, and S. Adriaenssens
+    title: Effect of crease curvature on the bistability of the origami waterbomb base
+    journal: "*Extreme Mechanics Letters* 57, 101909 (2022)"
+    doi: 10.1016/j.eml.2022.101909
+    cover: true
+
+  - year: 2022
+    authors: L. Stein-Montalvo, J.H. Lee, Y. Yang, M. Landesberg, H.S. Park, and D.P. Holmes
+    title: Efficient snap-through of spherical caps by applying a localized curvature stimulus
+    journal: "*European Physical Journal E*, 45, 3 (2022)"
+    doi: 10.1140/epje/s10189-021-00156-0
+    links:
+      Write-up: https://www.epj.org/epje-news/2320-epje-highlight-the-relationship-between-active-areas-and-boundaries-with-energy-input-in-snapping-shells
+
+  - year: 2021
+    authors: L. Stein-Montalvo, D.P. Holmes, and G. Coupier
+    title: Delayed buckling of spherical shells due to viscoelastic knockdown of the critical load
+    journal: "*Proc. R. Soc. A*, 477 (2021)"
+    doi: 10.1098/rspa.2021.0253
+
+  - year: 2019
+    authors: L. Stein-Montalvo, P. Costa, M. Pezzulla, and D.P. Holmes
+    title: Buckling of geometrically confined shells
+    journal: "*Soft Matter*, 15, 1215–1222 (2019)"
+    doi: 10.1039/c8sm02035c
+    cover: true
