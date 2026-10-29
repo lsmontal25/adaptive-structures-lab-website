@@ -365,6 +365,8 @@ if __name__ == '__main__':
     redirect('news-events', '/')  # old WordPress address
     if os.path.exists(os.path.join(ROOT, 'CNAME')):
         shutil.copy(os.path.join(ROOT, 'CNAME'), OUT)
+    if os.path.exists(os.path.join(ROOT, 'favicon.ico')):
+        shutil.copy(os.path.join(ROOT, 'favicon.ico'), OUT)
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     with open(os.path.join(OUT, '404.html'), 'w') as f:
         f.write('<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/"><a href="/">Adaptive Structures Lab</a>')
