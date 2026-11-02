@@ -58,14 +58,19 @@ people:
       the design and delivery of buildings. Vicky is currently researching multimodal
       kirigami buckling and modularization.
     links:
-      email: Vicky.C@u.northwestern.edu
+      email: hiuchow2030@u.northwestern.edu
       orcid: https://orcid.org/0009-0009-0935-4239
 
-  - name: Leilaini Bender
+  - name: Leilani Bender
     title: Graduate (PhD) Student
-    photo:
-    bio:
-    links: {}
+    photo: leilani.jpg
+    bio: >-
+      Leilani Bender is a PhD student in Civil Engineering at Northwestern University. Her
+      interests lie in understanding how geometry influences the behavior and performance of
+      structures. She is passionate about developing adaptable and efficient solutions
+      inspired by both natural and engineered systems.
+    links:
+      email: emilybender2031@u.northwestern.edu
 
   - name: Karina Paxton Filoteo
     title: Undergraduate Student
