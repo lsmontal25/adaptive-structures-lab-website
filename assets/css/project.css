@@ -7,7 +7,7 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:22px 4
 nav img{height:46px}
 nav ul{display:flex;gap:34px;list-style:none;font-size:17px}
 nav li.on{color:var(--slate2)}
-.intro{max-width:1240px;margin:auto;padding:64px 40px 48px;border-bottom:1px solid var(--line)}
+.intro{max-width:1240px;margin:auto;padding:64px 40px 48px;border-bottom:1px solid rgba(120,150,156,.45)}
 .intro .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--slate2)}
 .intro h1{font-size:clamp(38px,5vw,62px);line-height:1.05;margin:14px 0 20px}
 .intro h1 em{color:var(--slate2)}

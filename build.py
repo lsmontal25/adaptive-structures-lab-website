@@ -164,9 +164,9 @@ def footer(pg):
     links = ''.join('<a href="%s">%s</a>' % (pg.url(m['url']), esc(m['label'])) for m in SITE['menu'] if m['url'] != '/')
     return ('<footer><div class="fwrap"><div class="ftop"><div><img src="%s" alt="%s"></div>'
             '<div class="col"><h5>Address</h5>%s</div>'
-            '<div class="col"><h5>Contact</h5><a class="mail" href="mailto:%s">%s</a><div class="soc">%s</div></div></div>'
+            '<div class="col"><h5>Contact</h5>%s<a class="mail" href="mailto:%s">%s</a><div class="soc">%s</div></div></div>'
             '<div class="fbot"><nav>%s</nav><span>%s © %d. All Rights Reserved.</span></div></div></footer>') % (
-        pg.url('img/misc/logo-white.png'), esc(SITE['lab_name']), lines(f['address']), f['email'], f['email'], soc, links,
+        pg.url('img/misc/logo-white.png'), esc(SITE['lab_name']), lines(f['address']), ('<div class="fname">%s</div>' % esc(f['name']) if f.get('name') else ''), f['email'], f['email'], soc, links,
         esc(SITE['lab_name']), datetime.date.today().year)
 
 
@@ -282,7 +282,8 @@ def team():
     alum_html = '<h2 class="hd gh">Alumni</h2><div class="grid">%s</div>' % ''.join(alum) if alum else ''
     script = ('<script>const D=document.getElementById("bio");document.querySelectorAll(".open").forEach(b=>b.onclick=()=>{'
               'D.querySelector(".bwrap").innerHTML=document.getElementById(b.dataset.bio).innerHTML;D.showModal()});'
-              'D.querySelector(".x").onclick=()=>D.close();D.onclick=e=>{if(e.target===D)D.close()};</script>')
+              'const shut=()=>{if(matchMedia("(prefers-reduced-motion:reduce)").matches){D.close();return}D.classList.add("closing");setTimeout(()=>{D.classList.remove("closing");D.close()},220)};'
+              'D.querySelector(".x").onclick=shut;D.onclick=e=>{if(e.target===D)shut()};D.addEventListener("cancel",e=>{e.preventDefault();shut()});</script>')
     body = ('%s\n<section class="intro"><div class="eyebrow">%s</div><h1 class="hd">%s</h1>%s</section>\n'
             '<main class="team">%s<h2 class="hd gh">Group members</h2><div class="grid">%s</div>%s</main>\n'
             '<dialog id="bio"><button class="x" aria-label="Close">×</button><div class="bwrap"></div></dialog>%s\n%s\n%s') % (
