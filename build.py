@@ -12,6 +12,8 @@ import yaml
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = sys.argv[sys.argv.index('--out') + 1] if '--out' in sys.argv else os.path.join(ROOT, '_site')
 PREVIEW = '--preview' in sys.argv
+# Visitor stats (GoatCounter dashboard: adaptivestructureslab.goatcounter.com). Off in preview builds.
+ANALYTICS = '' if PREVIEW else '<script data-goatcounter="https://adaptivestructureslab.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>\n'
 ME = 'L. Stein-Montalvo'
 
 
@@ -178,9 +180,9 @@ def shell(pg, title, css, body, desc=''):
             '<link rel="icon" href="%s" sizes="32x32"><link rel="apple-touch-icon" href="%s">\n'
             '<meta property="og:title" content="%s"><meta property="og:description" content="%s">\n'
             '<link rel="stylesheet" href="%s"><link rel="stylesheet" href="%s">\n'
-            '</head><body class="fC">\n%s\n</body></html>\n') % (
+            '%s</head><body class="fC">\n%s\n</body></html>\n') % (
         t, d, pg.url('img/misc/icon-32.png'), pg.url('img/misc/icon-180.png'), t, d,
-        pg.url('css/common.css'), pg.url('css/%s.css' % css), body)
+        pg.url('css/common.css'), pg.url('css/%s.css' % css), ANALYTICS, body)
 
 
 def write(pg, s):
