@@ -115,7 +115,7 @@ def link_icons(links):
         if not v or k not in ICON:
             continue
         href = 'mailto:' + v if k == 'email' else v
-        out.append('<a href="%s" title="%s" aria-label="%s" target="_blank" rel="noopener">%s</a>' % (html.escape(href), ICON[k][0], ICON[k][0], ICON[k][1]))
+        out.append('<a href="%s" title="%s" aria-label="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (html.escape(href), ICON[k][0], ICON[k][0], ICON[k][1]))
     return ''.join(out)
 
 
@@ -160,7 +160,7 @@ def nav(pg, active):
 
 def footer(pg):
     f = SITE['footer']
-    soc = ''.join('<a href="%s" aria-label="%s" target="_blank" rel="noopener">%s</a>' % (html.escape(f[k]), SOC[k][0], SOC[k][1]) for k in ('instagram', 'bluesky', 'linkedin') if f.get(k))
+    soc = ''.join('<a href="%s" aria-label="%s" target="_blank" rel="noopener noreferrer">%s</a>' % (html.escape(f[k]), SOC[k][0], SOC[k][1]) for k in ('instagram', 'bluesky', 'linkedin') if f.get(k))
     links = ''.join('<a href="%s">%s</a>' % (pg.url(m['url']), esc(m['label'])) for m in SITE['menu'] if m['url'] != '/')
     return ('<footer><div class="fwrap"><div class="ftop"><div><img src="%s" alt="%s"></div>'
             '<div class="col"><h5>Address</h5>%s</div>'

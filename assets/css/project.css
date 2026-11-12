@@ -88,3 +88,14 @@ figcaption{font-size:13px;color:var(--mute);margin-top:8px}
 .foot-nav{max-width:1240px;margin:72px auto 80px;padding:24px 40px 0;border-top:1px solid var(--line)}
 .foot-nav a{color:var(--slate2);text-decoration:none;font-size:16px}
 @media(max-width:860px){.hero,.wrap{padding-left:16px;padding-right:16px}.sgrid,.gal{grid-template-columns:1fr;gap:24px}.sec{padding-top:48px}.sec h2{font-size:25px}.foot-nav{padding:20px 16px 0}}
+
+/* Nov 11: softer palette (header tint, slate rule, dimmer body text, slate pill outlines, slate footer labels) */
+.intro{background:linear-gradient(180deg,#151b1d 0%,var(--bg) 100%);max-width:none;padding-left:max(40px,calc((100% - 1160px)/2));padding-right:max(40px,calc((100% - 1160px)/2))}
+.intro h1{color:#e4e6e2}
+.intro h1::after{content:"";display:block;width:56px;height:2px;background:var(--slate);margin-top:22px}
+.pi p,.txt p,.addr{color:#b8bfc0}
+.bub,.menu-btn,.about .go{border-color:#5e7479}
+.bub:hover{border-color:var(--slate2)}
+.pi .t,dialog .bt{border-bottom:1px solid #3b4a4d}
+@media(max-width:860px){.intro{padding-left:16px;padding-right:16px}}
+footer h5{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:500;color:var(--slate2)}
